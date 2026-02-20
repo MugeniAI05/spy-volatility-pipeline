@@ -1,6 +1,6 @@
 # spy-volatility-pipeline
 
-**Production-grade SPY options volatility pipeline.** Runs daily after market close — ingests price and options data, runs 8 automated quality checks, fits GARCH(1,1), constructs the IV surface, computes the Volatility Risk Premium, and sends email alerts on anomalies.
+**Production-grade SPY options volatility pipeline.** Runs daily after market close, ingests price and options data, runs 8 automated quality checks, fits GARCH(1,1), constructs the IV surface, computes the Volatility Risk Premium, and sends email alerts on anomalies.
 
 ---
 
