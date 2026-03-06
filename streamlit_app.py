@@ -1,6 +1,5 @@
 # =============================================================================
 # streamlit_app.py — SPY Volatility Pipeline Dashboard
-# Drop this file in your project root and run: streamlit run streamlit_app.py
 # =============================================================================
 
 import sqlite3
