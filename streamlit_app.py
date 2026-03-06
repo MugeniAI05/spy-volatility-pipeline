@@ -1,6 +1,5 @@
 # =============================================================================
 # streamlit_app.py — SPY Volatility Pipeline Dashboard
-# Drop this file in your project root and run: streamlit run streamlit_app.py
 # =============================================================================
 
 import sqlite3
@@ -331,10 +330,10 @@ if latest is not None:
 
 # ── Tabs ──────────────────────────────────────────────────────────────────────
 tab1, tab2, tab3, tab4 = st.tabs([
-    "📊  Price & Volatility",
-    "🌐  IV Surface",
-    "🔍  Data Quality",
-    "🗄️  Database"
+    "  Price & Volatility",
+    "  IV Surface",
+    "  Data Quality",
+    "  Database"
 ])
 
 # ═══════════════════════════════════════════════════════════════════
